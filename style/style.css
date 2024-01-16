@@ -140,26 +140,6 @@ body > .container > header > .btm_header > div > form > button {
 
 /* Main section style =========== */
 
-h2 {
-  color: var(--black);
-  text-align: center;
-  font-family: Mulish;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-family: Mulish;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  width: 60%;
-  margin: 24px auto 48px;
-}
 /*  Start section one ============= */
 
 body > .container > main > .section_one {
@@ -226,6 +206,22 @@ body > .container > main > .section_two {
   margin: 100px 0;
 }
 
+body > .container > main > .section_two > h2 {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+body > .container > main > .section_two > p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 24px auto 48px;
+}
+
 body > .container > main > .section_two > .grid_s {
   width: 100%;
   height: auto;
@@ -289,3 +285,100 @@ body > .container > main > .section_two > .grid_s > div > h3 {
 }
 
 /* section three start =============== */
+
+body > .container > main > .section_three > h2 {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+body > .container > main > .section_three > p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 24px auto 48px;
+}
+body > .container > main > .section_three > .service_one {
+  display: flex;
+  gap: 24px;
+}
+
+body > .container > main > .section_three > .service_one > div {
+  width: 50%;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+}
+body > .container > main > .section_three > .service_one > .service_one_t {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+body > .container > main > .section_three > .service_two {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 50%;
+  margin: auto;
+  padding: 32px;
+  margin-top: 24px;
+}
+
+body > .container > main > .section_three > .service_one > div > h3,
+body > .container > main > .section_three > .service_two > h3 {
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 800;
+  padding: 32px 0 10px;
+}
+body > .container > main > .section_three > .service_one > div > img,
+body > .container > main > .section_three > .service_two > img {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+/* section fore style========== */
+
+body > .container > main > .section_fore {
+  margin: 100px 0;
+}
+body > .container > main > .section_fore > h2 {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+body > .container > main > .section_fore > p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 24px auto 48px;
+}
+/* package style --------- */
+body > .container > main > .section_fore > div {
+  margin-bottom: 24px;
+}
+
+body > .container > main > .section_fore > .section_fore_package_one,
+body > .container > main > .section_fore > .section_fore_package_three {
+  height: 500px;
+  border-radius: 16px;
+  background: url('../Images/main9.png'), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body > .container > main > .section_fore > .section_fore_package_two {
+  height: 500px;
+  border-radius: 16px;
+  background: url('../Images/main10.png'), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -112,10 +112,12 @@
   body > .container > main > .section_two {
     margin: 24px 0;
   }
-  body > .container > main > .section_two > h2 {
+  body > .container > main > .section_two > h2,
+  body > .container > main > .section_three > h2 {
     font-size: 20px;
   }
-  body > .container > main > .section_two > p {
+  body > .container > main > .section_two > p,
+  body > .container > main > .section_three > p {
     font-size: 14px;
     width: 95%;
     margin: 15px auto;
@@ -136,5 +138,36 @@
       'f'
       'g';
     gap: 15px;
+  }
+
+  /*  section three  */
+
+  body > .container > main > .section_three > .service_one {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  body > .container > main > .section_three > .service_one > div {
+    width: 100%;
+  }
+
+  body > .container > main > .section_three > .service_two {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  body > .container > main > .section_three > .service_one > div > h3,
+  body > .container > main > .section_three > .service_two > h3 {
+    font-size: 20px;
+    padding: 16px 0;
+  }
+  body > .container > main > .section_three > .service_one > div > p,
+  body > .container > main > .section_three > .service_two > p {
+    font-size: 14px;
+  }
+  body > .container > main > .section_three > .service_one > div > img,
+  body > .container > main > .section_three > .service_two > img {
+    width: 48px;
+    height: 48px;
   }
 }
