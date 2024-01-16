@@ -1,0 +1,123 @@
+@media screen and (max-width: 600px) {
+  body > .container > header > .abc {
+    display: none;
+  }
+
+  /* ============= */
+
+  body > .container {
+    width: 95%;
+    margin: auto;
+  }
+  /*
+   body > .container > header > .top-headder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  body > .container > header > .top-headder > .t_h_left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  body > .container > header > .top-headder > .t_h_left > h1 {
+    color: var(--black);
+    font-size: 36px;
+    font-weight: 800;
+  }
+  body > .container > header > .top-headder > .t_h_left > h1 > span {
+    color: var(--colorOrange);
+  }
+  body > .container > header > .top-headder > .t_h_left > img {
+    width: 48px;
+    height: 56.008px;
+  }
+
+  body > .container > header > .top-headder > .t_h_right > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+  }
+  body > .container > header > .top-headder > .t_h_right > ul > li {
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  body > .container > header > .top-headder > .t_h_right > ul > li:hover {
+    color: var(--colorOrange);
+    transform: scale(1.1);
+  } 
+  */
+  body > .container > header > .btm_header {
+    height: 445px;
+    margin: 15px 0 24px;
+  }
+  body > .container > header > .btm_header > div {
+    width: 100%;
+    background-size: contain;
+  }
+  body > .container > header > .btm_header > div > h1 {
+    font-size: 22px;
+  }
+
+  body > .container > header > .btm_header > div > p {
+    padding: 5px 3% 30px;
+    font-size: 14px;
+  }
+  body > .container > header > .btm_header > div > form {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    gap: 15px;
+  }
+
+  /* main section one responsive ========== */
+  body > .container > main > .section_one {
+    flex-direction: column;
+    gap: 20px;
+  }
+  body > .container > main > .section_one > .s_o_left {
+    width: 100%;
+  }
+
+  body > .container > main > .section_one > .s_o_left > h2 {
+    font-size: 20px;
+  }
+  body > .container > main > .section_one > .s_o_left > p,
+  body > .container > main > .section_one > .s_o_left > ul > li {
+    font-size: 14px;
+  }
+  body > .container > main > .section_one > .s_o_left > ul {
+    list-style-position: inside;
+    width: 100%;
+  }
+  body > .container > main > .section_one > .s_o_left > button {
+    margin: 10px 0 0;
+    padding: 10px 25px;
+  }
+
+  body > .container > main > .section_one > .s_o_right {
+    width: 100%;
+  }
+
+  /* section two======== */
+
+  body > .container > main > .section_two {
+    margin: 24px 0;
+  }
+  body > .container > main > .section_two > h2 {
+    font-size: 20px;
+  }
+  body > .container > main > .section_two > p {
+    font-size: 14px;
+    width: 95%;
+    margin: 15px auto;
+  }
+}

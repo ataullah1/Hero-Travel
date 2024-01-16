@@ -61,6 +61,168 @@ body > .container > header > .top-headder > .t_h_right > ul > li:hover {
   color: var(--colorOrange);
   transform: scale(1.1);
 }
-body > .container > header > .top-headder > .t_h_right {
+body > .container > header > .btm_header {
+  height: 500px;
+  width: 100%;
+  border-radius: 16px;
+  /* background: url('../Images/btm-header.png'),
+    linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%); */
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/btm-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 45px 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > .container > header > .btm_header > div {
+  width: 68%;
+  text-align: center;
+}
+body > .container > header > .btm_header > div > h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+body > .container > header > .btm_header > div > p {
+  color: #fff;
+  padding: 20px 2% 45px;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body > .container > header > .btm_header > div > form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+body > .container > header > .btm_header > div > form > input,
+body > .container > header > .btm_header > div > form > button,
+body > .container > header > .btm_header > div > form > select {
+  width: 100%;
+  color: rgba(19, 19, 24, 0.5);
+  padding: 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: none;
+}
+body > .container > header > .btm_header > div > form > button {
+  cursor: pointer;
+  background: var(--colorOrange);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main section style =========== */
+
+/*  Start section one ============= */
+
+body > .container > main > .section_one {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+body > .container > main > .section_one > .s_o_left {
+  width: 55%;
+}
+
+body > .container > main > .section_one > .s_o_left > h2 {
+  color: var(--black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+body > .container > main > .section_one > .s_o_left > p,
+body > .container > main > .section_one > .s_o_left > ul > li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 8px;
+}
+body > .container > main > .section_one > .s_o_left > ul {
+  list-style-position: inside;
+  width: 90%;
+  margin: 10px 0;
+}
+body > .container > main > .section_one > .s_o_left > button {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 14px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+body > .container > main > .section_one > .s_o_right {
+  width: 45%;
+}
+
+body > .container > main > .section_one > .s_o_right > img {
+  width: 100%;
+}
+
+/* section two style ========== */
+
+body > .container > main > .section_two {
+  margin: 100px 0;
+}
+body > .container > main > .section_two > h2 {
+  color: var(--black);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+body > .container > main > .section_two > p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 24px auto 48px;
+}
+body > .container > main > .section_two > .grid_s {
+  width: 100%;
+  height: auto;
   
 }
