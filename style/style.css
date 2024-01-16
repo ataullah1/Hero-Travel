@@ -564,3 +564,69 @@ body > .container > main > .section_fore > .packages_details_see_all {
   display: block;
   margin: auto;
 }
+
+body > .container > main > .section_five {
+  display: flex;
+  gap: 25px;
+}
+body > .container > main > .section_five > div {
+  width: 50%;
+}
+
+body > .container > main > .section_five > div > h2 {
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
+}
+body > .container > main > .section_five > div > p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 24px 0;
+}
+body > .container > main > .section_five > div > ul > li {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  list-style-position: inside;
+}
+body > .container > main > .section_five > div > button {
+  border-radius: 8px;
+  padding: 15px 42px;
+  background: var(--colorOrange);
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+}
+body > .container > main > .section_five > .section_fore_left_img {
+  position: relative;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
+    url('../Images/main11.png');
+  background-size: cover;
+  height: 425px;
+}
+body > .container > main > .section_five > .section_fore_left_img > h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+/* section six style====== */
