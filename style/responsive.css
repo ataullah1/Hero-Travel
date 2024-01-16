@@ -157,17 +157,154 @@
   }
 
   body > .container > main > .section_three > .service_one > div > h3,
-  body > .container > main > .section_three > .service_two > h3 {
+  body > .container > main > .section_three > .service_two > h3,
+  body > .container > main > .section_fore > h3 {
     font-size: 20px;
     padding: 16px 0;
   }
   body > .container > main > .section_three > .service_one > div > p,
-  body > .container > main > .section_three > .service_two > p {
+  body > .container > main > .section_three > .service_two > p,
+  body > .container > main > .section_fore > p {
     font-size: 14px;
+    width: 95%;
   }
   body > .container > main > .section_three > .service_one > div > img,
   body > .container > main > .section_three > .service_two > img {
     width: 48px;
     height: 48px;
+  }
+
+  /* package details=========== */
+
+  body > .container > main > .section_fore > div {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+
+  body > .container > main > .section_fore > div {
+    flex-direction: column;
+  }
+
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_one
+    > .packages_details,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_two
+    > .packages_details,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_three
+    > .packages_details {
+    width: 100%;
+    padding: 16px;
+  }
+
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_one
+    > .packages_details
+    > h3,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_two
+    > .packages_details
+    > h3,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_three
+    > .packages_details
+    > h3 {
+    font-size: 20px;
+    padding: 18px 0 8px;
+  }
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_one
+    > .packages_details
+    > p,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_two
+    > .packages_details
+    > p,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_three
+    > .packages_details
+    > p {
+    font-size: 14px;
+  }
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_one
+    > .packages_details
+    > .price,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_two
+    > .packages_details
+    > .price,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_three
+    > .packages_details
+    > .price {
+    font-size: 16px;
+    padding: 10px 0 16px;
+  }
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_one
+    > .packages_details
+    > button,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_two
+    > .packages_details
+    > button,
+  body
+    > .container
+    > main
+    > .section_fore
+    > .section_fore_package_three
+    > .packages_details
+    > button,
+  body > .container > main > .section_fore > .packages_details_see_all {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  body > .container > main > .section_fore > .packages_details_reverse {
+    flex-direction: column-reverse;
   }
 }
