@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;800&display=swap');
+:root {
+  --fontInter: 'Inter', sans-serif;
+  --fontMulish: 'Mulish', sans-serif;
+  --colorOrange: #ff5400;
+  --black: #131318;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--fontMulish);
+}
+body > .container {
+  width: 82%;
+  margin: auto;
+}
+body > .container > header > .top-headder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+body > .container > header > .top-headder > .t_h_left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body > .container > header > .top-headder > .t_h_left > h1 {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 800;
+}
+body > .container > header > .top-headder > .t_h_left > h1 > span {
+  color: var(--colorOrange);
+}
+body > .container > header > .top-headder > .t_h_left > img {
+  width: 48px;
+  height: 56.008px;
+}
+
+body > .container > header > .top-headder > .t_h_right > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+body > .container > header > .top-headder > .t_h_right > ul > li {
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body > .container > header > .top-headder > .t_h_right > ul > li:hover {
+  color: var(--colorOrange);
+  transform: scale(1.1);
+}
+body > .container > header > .top-headder > .t_h_right {
+  
+}
