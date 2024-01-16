@@ -140,6 +140,26 @@ body > .container > header > .btm_header > div > form > button {
 
 /* Main section style =========== */
 
+h2 {
+  color: var(--black);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 24px auto 48px;
+}
 /*  Start section one ============= */
 
 body > .container > main > .section_one {
@@ -154,6 +174,8 @@ body > .container > main > .section_one > .s_o_left {
 body > .container > main > .section_one > .s_o_left > h2 {
   color: var(--black);
   font-size: 40px;
+  /* margin: auto 0; */
+  text-align: left;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -164,6 +186,8 @@ body > .container > main > .section_one > .s_o_left > ul > li {
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
   font-size: 16px;
+  margin: auto 0;
+  text-align: left;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -201,28 +225,67 @@ body > .container > main > .section_one > .s_o_right > img {
 body > .container > main > .section_two {
   margin: 100px 0;
 }
-body > .container > main > .section_two > h2 {
-  color: var(--black);
+
+body > .container > main > .section_two > .grid_s {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(12, 1fr);
+  grid-template-areas:
+    'a a a a a a b b b b b b'
+    'c c c c d d d d d e e e'
+    'f f f f f g g g g g g g';
+  gap: 24px;
+}
+
+body > .container > main > .section_two > .grid_s > div > h3 {
+  color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 40px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
-body > .container > main > .section_two > p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-family: Mulish;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  width: 60%;
-  margin: 24px auto 48px;
+body > .container > main > .section_two > .grid_s > div {
+  position: relative;
+  border-radius: 16px;
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  );
 }
-body > .container > main > .section_two > .grid_s {
+body > .container > main > .section_two > .grid_s > .a {
+  grid-area: a;
+}
+body > .container > main > .section_two > .grid_s > .b {
+  grid-area: b;
+}
+body > .container > main > .section_two > .grid_s > .c {
+  grid-area: c;
+}
+body > .container > main > .section_two > .grid_s > .d {
+  grid-area: d;
+}
+body > .container > main > .section_two > .grid_s > .e {
+  grid-area: e;
+}
+body > .container > main > .section_two > .grid_s > .f {
+  grid-area: f;
+}
+body > .container > main > .section_two > .grid_s > .g {
+  grid-area: g;
+}
+body > .container > main > .section_two > .grid_s > div > img {
   width: 100%;
-  height: auto;
-  
+  height: 100%;
 }
+body > .container > main > .section_two > .grid_s > div > h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* section three start =============== */

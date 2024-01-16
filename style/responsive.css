@@ -120,4 +120,21 @@
     width: 95%;
     margin: 15px auto;
   }
+
+  /* grid section ===== */
+  body > .container > main > .section_two > .grid_s > div {
+    height: 176px;
+  }
+  body > .container > main > .section_two > .grid_s {
+    grid-template: repeat(7, 1fr) / 1fr;
+    grid-template-areas:
+      'a'
+      'b'
+      'c'
+      'd'
+      'e'
+      'f'
+      'g';
+    gap: 15px;
+  }
 }
