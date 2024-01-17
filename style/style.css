@@ -565,6 +565,8 @@ body > .container > main > .section_fore > .packages_details_see_all {
   margin: auto;
 }
 
+/* section five style ============= */
+
 body > .container > main > .section_five {
   display: flex;
   gap: 25px;
@@ -630,3 +632,47 @@ body > .container > main > .section_five > .section_fore_left_img > h3 {
 }
 
 /* section six style====== */
+
+body > .container > main > .section_six {
+  display: flex;
+  gap: 24px;
+  margin: 100px 0;
+  align-items: center;
+}
+/* body > .container > main > .section_six {} */
+
+body > .container > main > .section_six > .section_six_massage {
+  width: 40%;
+  border-radius: 16px;
+  height: 422px;
+  padding: 40px;
+  border: 1px solid #ff5400;
+}
+body > .container > main > .section_six > .section_six_massage > h3 {
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 800;
+}
+body > .container > main > .section_six > .section_six_massage > p {
+  color: #5a5a5d;
+  padding: 5px 0 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+body > .container > main > .section_six > .section_six_massage > hr {
+  background: rgba(19, 19, 24, 0.1);
+}
+body > .container > main > .section_six > .section_six_massage > form {
+  padding: 24PX 0;
+  
+}
+body > .container > main > .section_six > .section_six_massage > form input {
+}
+
+body > .container > main > .section_six > .section_six_image {
+  width: 60%;
+  height: 422px;
+  border-radius: 16px;
+  background: url('../Images/main12.png'), lightgray 50% / cover no-repeat;
+}
