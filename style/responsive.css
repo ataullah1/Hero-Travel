@@ -1,60 +1,61 @@
 @media screen and (max-width: 600px) {
-  body > .container > header > .abc {
-    display: none;
-  }
-
   /* ============= */
 
   body > .container {
     width: 95%;
     margin: auto;
   }
-  /*
-   body > .container > header > .top-headder {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+
+  body > .container > header > .top-headder {
+    margin-top: 20px;
+    position: relative;
   }
   body > .container > header > .top-headder > .t_h_left {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    gap: 8px;
   }
   body > .container > header > .top-headder > .t_h_left > h1 {
-    color: var(--black);
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 21.5px;
   }
-  body > .container > header > .top-headder > .t_h_left > h1 > span {
-    color: var(--colorOrange);
-  }
+
   body > .container > header > .top-headder > .t_h_left > img {
-    width: 48px;
-    height: 56.008px;
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
   }
 
   body > .container > header > .top-headder > .t_h_right > ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 40px;
+    display: none;
+    background-color: rgb(31, 28, 28);
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    z-index: 111;
+    flex-direction: column;
+    gap: 15px;
   }
   body > .container > header > .top-headder > .t_h_right > ul > li {
-    color: #424247;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    cursor: pointer;
-    transition: 0.3s;
+    font-size: 14px;
+    color: white;
   }
-  body > .container > header > .top-headder > .t_h_right > ul > li:hover {
-    color: var(--colorOrange);
-    transform: scale(1.1);
-  } 
-  */
+
+  body > .container > header > .top-headder > .t_h_right > .dotmenu {
+    display: block;
+  }
+  body
+    > .container
+    > header
+    > .top-headder
+    > .t_h_right
+    > .dotmenu:active
+    .body
+    > .container
+    > header
+    > .top-headder
+    > .t_h_right
+    > ul {
+    display: block;
+  }
   body > .container > header > .btm_header {
     height: 445px;
     margin: 15px 0 24px;

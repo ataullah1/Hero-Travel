@@ -47,6 +47,11 @@ body > .container > header > .top-headder > .t_h_right > ul {
   list-style: none;
   gap: 40px;
 }
+body > .container > header > .top-headder > .t_h_right > .dotmenu {
+  text-align: right;
+  vertical-align: middle;
+  display: none;
+}
 body > .container > header > .top-headder > .t_h_right > ul > li {
   color: #424247;
   text-align: center;
@@ -55,6 +60,7 @@ body > .container > header > .top-headder > .t_h_right > ul > li {
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+  text-transform: capitalize;
   transition: 0.3s;
 }
 body > .container > header > .top-headder > .t_h_right > ul > li:hover {
