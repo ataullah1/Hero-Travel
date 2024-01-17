@@ -338,4 +338,70 @@
   body > .container > main > .section_five > .section_fore_left_img > h3 {
     font-size: 20px;
   }
+
+  /* section six responsive */
+
+  body > .container > main > .section_six {
+    flex-direction: column;
+    gap: 10px;
+    margin: 25px 0;
+  }
+
+  body > .container > main > .section_six > .section_six_massage {
+    width: 100%;
+    padding: 23px;
+    height: 350px;
+  }
+  body > .container > main > .section_six > .section_six_massage > h3 {
+    color: var(--black);
+    font-size: 20px;
+  }
+  body > .container > main > .section_six > .section_six_massage > p {
+    padding: 0px 0 16px;
+    font-size: 14px;
+  }
+
+  body > .container > main > .section_six > .section_six_massage > form {
+    padding: 16px 0;
+  }
+  body > .container > main > .section_six > .section_six_massage > form input {
+    margin-bottom: 8px;
+  }
+
+  body > .container > main > .section_six > .section_six_image {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Footer section style-- */
+
+  body > footer {
+    padding: 33px 0;
+  }
+  body > footer > .footer_logo {
+    gap: 8px;
+  }
+  body > footer > .footer_logo > h1 {
+    font-size: 21.543px;
+  }
+  body > footer > .footer_logo > img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  body > footer > p {
+    width: 95%;
+    margin: auto;
+    padding: 12px 0 16px;
+  }
+  body > footer > div > a {
+    padding: 0 8px;
+    font-size: 20px;
+  }
+  body > footer > hr {
+    margin: 20px auto;
+    width: 95%;
+  }
+  body > footer > small {
+    font-size: 14px;
+  }
 }
